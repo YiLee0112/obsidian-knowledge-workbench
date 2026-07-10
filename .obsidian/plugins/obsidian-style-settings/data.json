@@ -1,0 +1,14 @@
+{
+  "minimal-style@@active-line-on": true,
+  "minimal-style@@checkbox-shape": "checkbox-circle",
+  "minimal-style@@embed-hide-title": true,
+  "minimal-style@@embed-strict": true,
+  "minimal-style@@row-alt": true,
+  "minimal-style@@row-hover": true,
+  "minimal-style@@tag-color@@light": "#1F6F59",
+  "minimal-style@@tag-background@@light": "#EAF5EF",
+  "minimal-style@@tag-color@@dark": "#B7ECD9",
+  "minimal-style@@blockquote-border-color@@light": "#2F8F71",
+  "minimal-style@@blockquote-border-thickness": 2
+}
+

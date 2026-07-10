@@ -1,0 +1,18 @@
+.DS_Store
+*/.DS_Store
+.trash/
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/cache/
+.obsidian/plugins/**/*
+!.obsidian/plugins/**/
+!.obsidian/plugins/*/data.json
+
+# Keep personal vault content out of this public template.
+Journal/
+Notes/
+Private/
+attachments/
+Attachments/
+media-lib/
+

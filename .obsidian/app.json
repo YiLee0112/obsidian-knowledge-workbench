@@ -1,0 +1,9 @@
+{
+  "attachmentFolderPath": "./attachments",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "visible",
+  "foldHeading": true
+}
+

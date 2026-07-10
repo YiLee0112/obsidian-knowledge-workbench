@@ -1,0 +1,10 @@
+{
+  "accentColor": "#2f8f71",
+  "theme": "moonstone",
+  "baseFontSize": 17,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "knowledge-system"
+  ]
+}
+
