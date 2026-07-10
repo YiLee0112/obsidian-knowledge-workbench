@@ -8,6 +8,11 @@
 !.obsidian/plugins/**/
 !.obsidian/plugins/*/data.json
 
+# Bundle Dataview so the dashboard works immediately after cloning.
+!.obsidian/plugins/dataview/main.js
+!.obsidian/plugins/dataview/manifest.json
+!.obsidian/plugins/dataview/styles.css
+
 # Keep personal vault content out of this public template.
 Journal/
 Notes/
@@ -15,4 +20,3 @@ Private/
 attachments/
 Attachments/
 media-lib/
-
