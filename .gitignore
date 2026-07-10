@@ -8,10 +8,12 @@
 !.obsidian/plugins/**/
 !.obsidian/plugins/*/data.json
 
-# Bundle Dataview so the dashboard works immediately after cloning.
-!.obsidian/plugins/dataview/main.js
-!.obsidian/plugins/dataview/manifest.json
-!.obsidian/plugins/dataview/styles.css
+# Bundle every dependency required by the workbench for a zero-install clone.
+!.obsidian/plugins/dataview/**
+!.obsidian/plugins/heatmap-calendar/**
+!.obsidian/plugins/homepage/**
+!.obsidian/plugins/obsidian-minimal-settings/**
+!.obsidian/plugins/obsidian-style-settings/**
 
 # Keep personal vault content out of this public template.
 Journal/

@@ -20,14 +20,10 @@ Inbox → Seed → Growing → Evergreen → Archive
 
 1. Clone 本仓库。
 2. 用 Obsidian 打开仓库根目录。
-3. 安装社区插件：
+3. 首次打开时确认信任此仓库并允许社区插件。
+4. Homepage 插件会自动打开 `Home.md`。
 
-   ```bash
-   python3 tools/install-obsidian-plugins.py
-   ```
-
-4. 在 Obsidian 设置中安装并启用 **Minimal** 主题。
-5. 重启 Obsidian，Homepage 插件会自动打开 `Home.md`。
+所有必需社区插件和 Minimal 主题都已经包含在仓库中，无需额外安装。
 
 核心依赖：
 
@@ -73,11 +69,18 @@ git ls-files
 
 确认没有私人内容后再推送。
 
-## 插件恢复
+## 内置依赖
 
-仓库只保存插件启用列表和必要设置，不保存插件安装包。恢复脚本会根据 Obsidian 官方社区插件索引下载插件。
+仓库包含以下插件的完整安装包和必要设置：
+
+- Dataview
+- Homepage
+- Heatmap Calendar
+- Minimal Theme Settings
+- Style Settings
+
+仓库同时包含 Minimal 主题本体。`tools/install-obsidian-plugins.py` 保留为插件损坏时的修复工具，或需要主动刷新插件版本时使用。
 
 ## License
 
 MIT
-
